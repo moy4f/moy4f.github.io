@@ -32,7 +32,7 @@
 					<span class="icon">📧</span>
 					<div>
 						<h3>Email</h3>
-						<p>michelle@example.com</p>
+						<p>michelleoliva903@gmail.com</p>
 					</div>
 				</div>
 				<div class="info-item">

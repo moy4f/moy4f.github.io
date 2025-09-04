@@ -4,10 +4,8 @@
 	import '../app.css';
 	import '../static/page_format.css';
 	
-	// Import SvelteKit stores for navigation
 	import { page } from '$app/stores';
 	
-	// Reactive variable to track current path
 	$: currentPath = $page.url.pathname;
 </script>
 
@@ -19,7 +17,7 @@
 		<ul class="nav-menu">
 			<li><a href="/" class="nav-link" class:active={currentPath === '/'}>Home</a></li>
 			<li><a href="/about" class="nav-link" class:active={currentPath === '/about'}>About</a></li>
-			<li><a href="/projects" class="nav-link" class:active={currentPath === '/works'}>Works</a></li>
+			<li><a href="/works" class="nav-link" class:active={currentPath === '/works'}>Works</a></li>
 			<li><a href="/contact" class="nav-link" class:active={currentPath === '/contact'}>Contact</a></li>
 		</ul>
 	</div>
@@ -85,7 +83,7 @@
 
 	/* Add padding to main content to account for fixed navigation */
 	main {
-		padding-top: 80px;
+		padding-top: 10px;
 	}
 
 	@media (max-width: 768px) {
