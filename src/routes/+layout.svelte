@@ -2,7 +2,7 @@
 <script>
 	// Import global CSS that applies to all pages
 	import '../app.css';
-	import '../assets/page_format.css';
+	import '../static/page_format.css';
 	
 	// Import SvelteKit stores for navigation
 	import { page } from '$app/stores';
