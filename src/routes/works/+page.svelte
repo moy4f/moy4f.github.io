@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>Works - Michelle's Svelte Site</title>
-	<meta name="description" content="View Michelle's portfolio of web development projects" />
+	<meta name="description" content="Section Browsing Page of Uploaded Works" />
 </svelte:head>
 
 <div class="container">
