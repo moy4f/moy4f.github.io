@@ -13,79 +13,14 @@
             <h2>My name's Michelle!</h2>
             <p>I am Mexican American. I love Wallows. I speak Spanish. Other stuff I can fill out myself instead of Zach.</p>
         </div>
+
+		<div class="card">
+			<h2>About WEBSITE</h2>
+			<ul class="features">
+			<li>This site is dedicated to celebrating and preserving the rich Latino culture in Kansas City. It serves as a growing archive where anyone can explore documents, images, texts, and other resources that showcase the history, traditions, and everyday experiences of the Latino community in our city.</li>
+			<li>The goal is simple: to create an accessible database that highlights the voices, stories, and contributions of Latinos in Kansas City. Whether it’s photographs from community events, essays on cultural identity, or historical records, this platform is designed to bring these materials together in one place where they can be shared, studied, and appreciated.</li>
+			<li>By collecting and curating this content, I hope to strengthen connections within the community and provide others with the opportunity to learn more about the diverse and vibrant Latino heritage that shapes Kansas City.</li>
+			</ul>
+		</div>
     </main>
 </div>
-
-<!-- ===== COMPONENT STYLING ===== -->
-<!-- Styles are scoped to this component only, preventing conflicts -->
-<style>
-	/* ===== MAIN CONTAINER ===== */
-	.container {
-		min-height: 100vh;                    /* Full viewport height */
-		display: flex;                        /* Flexbox layout */
-		flex-direction: column;               /* Stack children vertically */
-		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);  /* Beautiful gradient background */
-		color: white;                         /* White text for contrast */
-	}
-	
-	/* ===== HEADER STYLING ===== */
-	.header {
-		text-align: center;                   /* Center align header content */
-		padding: 4rem 2rem 2rem;             /* Generous spacing around content */
-	}
-	
-	.header h1 {
-		font-size: 3rem;                     /* Large, prominent title */
-		margin: 0 0 1rem;                    /* Remove default margins, add bottom spacing */
-		background: linear-gradient(45deg, #fff, #f0f0f0);  /* Gradient text effect */
-		-webkit-background-clip: text;       /* Clip background to text (WebKit browsers) */
-		-webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
-		background-clip: text;                /* Modern browsers support */
-	}
-	
-	/* ===== MAIN CONTENT LAYOUT ===== */
-	.main-content {
-		flex: 1;                              /* Take remaining space */
-		display: flex;                        /* Flexbox for card layout */
-		flex-direction: column;               /* Stack cards vertically */
-		align-items: center;                  /* Center cards horizontally */
-		gap: 2rem;                            /* Consistent spacing between cards */
-		padding: 0 2rem 2rem;                /* Side and bottom padding */
-	}
-	
-	/* ===== CARD COMPONENT STYLING ===== */
-	.card {
-		background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
-		backdrop-filter: blur(10px);          /* Modern glassmorphism effect */
-		border-radius: 20px;                  /* Rounded corners for modern look */
-		padding: 2rem;                        /* Generous internal spacing */
-		text-align: center;                   /* Center card content */
-		max-width: 500px;                     /* Limit card width for readability */
-		width: 100%;                          /* Full width up to max-width */
-		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
-		border: 1px solid rgba(255, 255, 255, 0.2);  /* Subtle border for definition */
-	}
-	
-	.card h2 {
-		margin: 0 0 1.5rem;                   /* Remove top margin, add bottom spacing */
-		font-size: 1.8rem;                    /* Prominent card titles */
-	}
-	
-	.card p {
-		font-size: 1.1rem;                    /* Readable paragraph text */
-		line-height: 1.6;                     /* Comfortable line spacing */
-		margin: 0;                             /* Remove default margins */
-	}
-	
-	/* ===== RESPONSIVE DESIGN ===== */
-	/* Adjust layout for smaller screens */
-	@media (max-width: 768px) {
-		.header h1 {
-			font-size: 2rem;                 /* Smaller title on mobile */
-		}
-		
-		.card {
-			margin: 0 1rem;                  /* Add side margins on mobile */
-		}
-	}
-</style>

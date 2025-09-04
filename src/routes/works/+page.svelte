@@ -12,36 +12,36 @@
 	<main class="main-content">
 		<div class="projects-grid">
 			<div class="project-card">
-				<h2>Personal Portfolio</h2>
-				<p>blah</p>
+				<h2>Images</h2>
+				<p>Photos, art, etc.</p>
 				<div class="tech-stack">
 					<span class="tech-tag">Svelte</span>
 					<span class="tech-tag">CSS3</span>
 					<span class="tech-tag">JavaScript</span>
 				</div>
-				<a href="#" class="project-link">View Project →</a>
+				<a href="#" class="project-link">Browse Images</a>
 			</div>
 			
 			<div class="project-card">
-				<h2>E-commerce Platform</h2>
-				<p>Full-stack e-commerce solution with modern UI/UX</p>
+				<h2>Documents</h2>
+				<p>Texts written by latino people in the Kansas City Area</p>
 				<div class="tech-stack">
 					<span class="tech-tag">React</span>
 					<span class="tech-tag">Node.js</span>
 					<span class="tech-tag">MongoDB</span>
 				</div>
-				<a href="#" class="project-link">View Project →</a>
+				<a href="#" class="project-link">Browse Documents</a>
 			</div>
 			
 			<div class="project-card">
-				<h2>Task Management App</h2>
-				<p>Collaborative task management with real-time updates</p>
+				<h2>Notable People Profiles</h2>
+				<p>People who have had great impact on our community</p>
 				<div class="tech-stack">
 					<span class="tech-tag">Vue.js</span>
 					<span class="tech-tag">Firebase</span>
 					<span class="tech-tag">TypeScript</span>
 				</div>
-				<a href="#" class="project-link">View Project →</a>
+				<a href="#" class="project-link">Browse Profiles</a>
 			</div>
 		</div>
 	</main>
