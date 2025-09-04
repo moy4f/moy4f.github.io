@@ -14,6 +14,17 @@
 	function decrement() {
 		count -= 1;  // The UI updates immediately when count changes
 	}
+	function increment_ten() {
+		count += 10;
+	}
+
+	function decrement_ten() {
+		count -= 10;
+	}
+	
+	function clear() {
+		count = 0;
+	}
 </script>
 
 <!-- ===== PAGE METADATA ===== -->
@@ -38,11 +49,14 @@
 			<h2>Interactive Counter</h2>
 			<div class="counter">
 				<!-- Decrement button with event handler -->
+				<button class="btn btn-secondary" on:click={decrement_ten}>-10</button>
 				<button class="btn btn-secondary" on:click={decrement}>-</button>
 				<!-- Reactive display of current count value -->
 				<span class="count">{count}</span>
 				<!-- Increment button with event handler -->
 				<button class="btn btn-primary" on:click={increment}>+</button>
+				<button class="btn btn-primary" on:click={increment_ten}>+10</button>
+				<button class="btn btn-primary" on:click={clear}>Clear</button>
 			</div>
 		</div>
 		
