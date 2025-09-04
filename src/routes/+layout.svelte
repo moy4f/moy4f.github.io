@@ -19,7 +19,7 @@
 		<ul class="nav-menu">
 			<li><a href="/" class="nav-link" class:active={currentPath === '/'}>Home</a></li>
 			<li><a href="/about" class="nav-link" class:active={currentPath === '/about'}>About</a></li>
-			<li><a href="/projects" class="nav-link" class:active={currentPath === '/projects'}>Projects</a></li>
+			<li><a href="/projects" class="nav-link" class:active={currentPath === '/works'}>Works</a></li>
 			<li><a href="/contact" class="nav-link" class:active={currentPath === '/contact'}>Contact</a></li>
 		</ul>
 	</div>
