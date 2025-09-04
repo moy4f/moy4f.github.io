@@ -1,19 +1,19 @@
 <svelte:head>
-	<title>Projects - Michelle's Svelte Site</title>
+	<title>Works - Michelle's Svelte Site</title>
 	<meta name="description" content="View Michelle's portfolio of web development projects" />
 </svelte:head>
 
 <div class="container">
 	<header class="header">
-		<h1>My Projects</h1>
-		<p class="subtitle">Here are some of the projects I've worked on</p>
+		<h1>Uploads</h1>
+		<p class="subtitle">Here are some of the documents I've uploaded</p>
 	</header>
 	
 	<main class="main-content">
 		<div class="projects-grid">
 			<div class="project-card">
 				<h2>Personal Portfolio</h2>
-				<p>A beautiful portfolio website built with Svelte and modern CSS</p>
+				<p>blah</p>
 				<div class="tech-stack">
 					<span class="tech-tag">Svelte</span>
 					<span class="tech-tag">CSS3</span>

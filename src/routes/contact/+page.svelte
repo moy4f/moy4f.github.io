@@ -39,14 +39,14 @@
 					<span class="icon">📍</span>
 					<div>
 						<h3>Location</h3>
-						<p>San Francisco, CA</p>
+						<p>Kansas City, KS</p>
 					</div>
 				</div>
 				<div class="info-item">
 					<span class="icon">💼</span>
 					<div>
 						<h3>LinkedIn</h3>
-						<p>linkedin.com/in/michelle</p>
+						<p>https://www.linkedin.com/in/michelle-oliva-espinosa-b74285173/</p>
 					</div>
 				</div>
 			</div>
